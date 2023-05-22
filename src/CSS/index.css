@@ -19,6 +19,15 @@
   }
 }
 
+.gradient-transition-button {
+  background: linear-gradient(90deg, #6366f1, #a855f7, #ec4899, #a855f7, #ec4899);
+  background-size: 200%;
+}
+
+.gradient-transition-button:hover {
+  background-position: 200%;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -37,6 +46,7 @@ html {
   scrollbar-width: auto;
   font-family: "Inter", sans-serif;
 }
+
 body {
   background-color: #000513;
 }

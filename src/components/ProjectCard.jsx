@@ -39,7 +39,7 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
               href={listOfProjects[0]["link"]}
               target="_blank"
               rel="noreferrer"
-              className="w-full px-4 items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2"
+              className="w-full px-4 items-center gap-2 block hover:scale-95 gradient-transition-button transition-all duration-300 justify-center text-center text-white xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2"
             >
               GitHub Link<span aria-hidden="true">→</span>
             </a>
@@ -47,7 +47,7 @@ function ProjectCard({ github_username, listOfProjects, socaialMedia }) {
           <div>
             <Link
               to={`/projects/${github_username.toLowerCase()}`}
-              className="w-full px-4   items-center gap-2 justify-center text-center text-white from-indigo-500 via-purple-500 to-pink-500 bg-gradient-to-r  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
+              className="w-full px-4 items-center block hover:scale-95 gradient-transition-button transition-all duration-300 gap-2 justify-center text-center text-white  xl:text-[1rem] md:text-[0.8rem]  rounded-md py-2 "
             >
               More<span aria-hidden="true">→</span>
             </Link>
